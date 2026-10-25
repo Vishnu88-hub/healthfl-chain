@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+torch
+flwr
+ray
+web3
+py-solc-x
+shap
+streamlit
+matplotlib

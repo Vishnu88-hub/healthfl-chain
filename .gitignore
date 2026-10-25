@@ -1,0 +1,72 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and tooling caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Local databases and runtime state
+db/*.db
+db/*.sqlite
+db/*.sqlite3
+*.log
+
+# Generated machine-learning artifacts
+saved_models/
+models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.joblib
+
+# Generated plots and reports
+*.png
+*.jpg
+*.jpeg
+*.svg
+reports/
+
+# Blockchain deployment artifacts generated locally
+blockchain/deployment.json
+blockchain/contract_address.txt
+
+# Streamlit and local application state
+.streamlit/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
